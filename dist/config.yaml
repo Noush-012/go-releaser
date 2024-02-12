@@ -1,5 +1,8 @@
 project_name: go-releaser
 release:
+  github:
+    owner: Noush-012
+    name: go-releaser
   name_template: '{{.Tag}}'
 builds:
   - id: go-releaser

@@ -43,3 +43,14 @@ changelog:
 # Feel free to remove those if you don't want/use them.
 # yaml-language-server: $schema=https://goreleaser.com/static/schema.json
 # vim: set ts=2 sw=2 tw=0 fo=cnqoj
+
+
+brews:
+  -
+    name: veracode-cli
+    homepage: "https://veracode.com"
+    tap:
+      owner: veracode
+      name: homebrew-veracode-cli
+    commit_author:
+      name: veracode
